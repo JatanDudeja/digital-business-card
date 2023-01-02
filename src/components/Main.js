@@ -11,14 +11,14 @@ function Main(){
         <div className='main-intro'>
             <Name />
             <div className='main-buttons'>
-                <a href='https://www.gmail.com'>
+                <a href='https://www.gmail.com' target="_blank">
                     <button className='main-email'>
                         <i class="fa-solid email-button fa-envelope"></i>
                         Email
                     </button>
                 </a>
 
-                <a href='https://www.linkedin.com/in/jatan-dudeja-99a91b1b6/'>
+                <a href='https://www.linkedin.com/in/jatan-dudeja-99a91b1b6/' target="_blank">
                     <button className='main-linkedIn'>
                         <i class="fa-brands linkedIn-button fa-linkedin"></i>
                         LinkedIn
