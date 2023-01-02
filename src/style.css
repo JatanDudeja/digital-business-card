@@ -1,0 +1,185 @@
+body{
+    background-color: #23252C;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 780px;
+    width: 317px;
+    background-color: #1A1B21;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+
+.image-section-my_image{
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.main-intro{
+    margin: auto;
+    background-color: #1A1B21;
+    height: 399px;
+    width: 317px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.name-intro{
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+
+.name-name{
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0;
+    font-size: 26px;
+ 
+}
+
+.name-title{
+    margin:0;
+    margin-top: 2px;
+    display: block;
+    font-size: 13px;
+    color: #F3BF99;
+}
+
+.name-website{
+    /* margin: 0; */
+    display: block;
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+
+.main-buttons{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 15px;
+}
+
+
+.main-email{
+    height: 34px;
+    width: 115px;
+    border-radius: 5px;
+    border: 0;
+    padding: 9px 13px 9px 11px;
+    margin-left: 25px;
+}
+
+.main-linkedIn{
+    width: 115px;
+    border-radius: 5px;
+    border: 0;
+    padding: 9px 13px 9px 11px;
+    margin-right: 25px;
+    background-color: #5093E2;
+    color: white;
+}
+
+.about{
+    margin-top: 40px;
+}
+
+.about-me{
+    display: block;
+    font-weight:550;
+    font-size: 16px;
+    margin-left: 38px;
+}
+
+.about-me-para{
+    margin-top: 6px;
+    margin-left: 38px;
+    max-width: 232px;
+    font-size: 10px;
+    color: #DCDCDC;
+    line-height: 150%;
+}
+
+
+
+.interest{
+    margin-top: 20px;
+}
+
+
+
+.interest-heading{
+    display: block;
+    font-weight:550;
+    font-size: 16px;
+    margin-left: 38px;
+}
+
+
+.interest-para{
+    margin-top: 6px;
+    margin-left: 38px;
+    max-width: 232px;
+    font-size: 10px;
+    color: #DCDCDC;
+    line-height: 150%;
+}
+
+
+
+.icons-container{
+    height: 64px;
+    width: 317px;
+    background-color: #161619;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-icons{
+    height: 64px;
+    width: 200px;
+    background-color: #161619;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.instagram, .facebook, .twitter, .github{
+    margin-top: 5px;
+    font-size: 25px;
+    color: #918E9B;
+}
+
+
+
+
+
+.email-button, .linkedIn-button{
+    margin-right: 10px;
+}
+
+
+button{
+    cursor: pointer;
+}
